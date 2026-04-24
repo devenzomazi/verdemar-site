@@ -1,0 +1,69 @@
+.produtos-page {
+  margin-top: 80px;
+}
+
+/* INTRO */
+.produtos-intro {
+  background-color: #f5f5f5;
+  padding: 100px 20px;
+}
+
+.produtos-intro h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+.produtos-intro p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 15px;
+  max-width: 500px;
+}
+
+/* IMAGEM */
+.img-produtos {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* PROCESSO */
+.produtos-processo {
+  background-color: rgba(12, 148, 124, 1);
+  color: white;
+  padding: 100px 20px;
+}
+
+.produtos-processo h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.produtos-processo p {
+  max-width: 800px;
+  margin: 0 auto 20px;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+/* IMAGEM FINAL */
+.produtos-imagem {
+  height: 500px;
+  background-image: url('/materiais/7c1fcaa71a574d69b5dbf4bb75dffbee660c2276.png');
+  background-size: cover;
+  background-position: center;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .produtos-intro h1 {
+    font-size: 2rem;
+  }
+
+  .produtos-processo h2 {
+    font-size: 1.8rem;
+  }
+}

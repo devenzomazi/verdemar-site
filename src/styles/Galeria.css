@@ -1,0 +1,44 @@
+.galeria {
+  padding: 60px 20px;
+}
+
+.galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.galeria-item {
+  width: 100%;
+  height: 200px;
+  background-color: #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.galeria-item img {
+  width: 100%;
+  height: 120%;
+  object-fit: cover;
+}
+
+/* botão */
+.btn-vermais {
+  background-color: #8b3e2f;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.btn-vermais:hover {
+  opacity: 0.9;
+}
+
+/* responsivo */
+@media (max-width: 768px) {
+  .galeria-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,38 @@
+.destaque {
+  background-color: #c8d7d4; /* verde claro do fundo */
+  padding: 80px 20px;
+}
+
+.destaque-box {
+  background-color: #ffffff;
+  padding: 50px 30px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+
+  border-radius: 4px;
+}
+
+/* TEXTO */
+.destaque-box h2 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #2c2c2c;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .destaque {
+    padding: 60px 15px;
+  }
+
+  .destaque-box {
+    padding: 40px 20px;
+  }
+
+  .destaque-box h2 {
+    font-size: 1.6rem;
+  }
+}

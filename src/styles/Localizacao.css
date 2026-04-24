@@ -1,0 +1,59 @@
+.localizacao {
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.localizacao h3 {
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}
+
+.localizacao-content {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+/* info */
+.local-info {
+  flex: 1;
+}
+
+.local-info h5 {
+  color: #0f766e;
+  margin-bottom: 10px;
+}
+
+.local-info p {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.btn-agenda {
+  background-color: #8b3e2f;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
+/* mapa */
+.local-mapa {
+  flex: 1;
+}
+
+.local-mapa iframe {
+  width: 100%;
+  height: 200px;
+  border: none;
+  border-radius: 6px;
+}
+
+/* responsivo */
+@media (max-width: 768px) {
+  .localizacao-content {
+    flex-direction: column;
+  }
+}

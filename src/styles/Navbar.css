@@ -1,0 +1,53 @@
+.custom-navbar {
+  padding: 25px 0;
+  transition: all 0.3s ease;
+}
+
+/* HOME transparente */
+.custom-navbar.transparent {
+  background: transparent;
+}
+
+.custom-navbar.transparent .nav-link,
+.custom-navbar.transparent .navbar-brand {
+  color: white !important;
+}
+
+/* quando scrolla na home */
+.custom-navbar.scrolled {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 15px 0;
+}
+
+.custom-navbar.scrolled .nav-link,
+.custom-navbar.scrolled .navbar-brand {
+  color: #2c5f2d !important;
+}
+
+/* outras páginas */
+.custom-navbar.solid {
+  background: white;
+  padding: 15px 0;
+}
+
+.custom-navbar.solid .nav-link,
+.custom-navbar.solid .navbar-brand {
+  color: #2c5f2d !important;
+}
+
+/* LINK ATIVO */
+.nav-link.active {
+  position: relative;
+  font-weight: 600;
+}
+
+/* underline elegante */
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: currentColor;
+}
