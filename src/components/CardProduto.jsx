@@ -10,7 +10,7 @@ const CardProduto = ({ produto }) => {
         <p className="card-text flex-grow-1">{produto.descricao}</p>
         <div className="mt-auto">
           <Link to="/materiais" className="btn btn-secondary btn-sm me-2">Ver Materiais</Link>
-          <a href="https://wa.me/5581999999999" className="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">Entrar em contato</a>
+          <a href="https://wa.me/5547984357154?text=Olá%20Odair,%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20as%20biojoias." className="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">Entrar em contato</a>
         </div>
       </div>
     </div>
