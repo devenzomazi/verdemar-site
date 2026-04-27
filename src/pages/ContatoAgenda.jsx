@@ -75,16 +75,15 @@ const ContatoAgenda = () => {
 
           {/* MAPA */}
           <div className="mapa">
-            <iframe
-              src="https://www.google.com/maps?q=Bombinhas,SC&output=embed"
-              loading="lazy"
-              title="Mapa"
-            />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3550.381478046105!2d-48.506818524552514!3d-27.14428517650988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8a545345a8aab%3A0x7a0898aa22fd2d83!2sFeira%20de%20Artesanato%20de%20Bombas%20-%20Bombinhas%20-%20SC!5e0!3m2!1spt-BR!2sbr!4v1777249360481!5m2!1spt-BR!2sbr" 
+              loading="lazy" 
+              title ="Mapa">
+            </iframe>
           </div>
 
           {/* ROTA */}
           <a
-            href="https://www.google.com/maps/dir/?api=1&destination=Bombinhas,SC"
+            href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3550.381478046105!2d-48.506818524552514!3d-27.14428517650988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8a545345a8aab%3A0x7a0898aa22fd2d83!2sFeira%20de%20Artesanato%20de%20Bombas%20-%20Bombinhas%20-%20SC!5e0!3m2!1spt-BR!2sbr!4v1777249360481!5m2!1spt-BR!2sbr"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-rota"
